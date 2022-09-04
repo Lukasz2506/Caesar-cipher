@@ -48,7 +48,7 @@ while go_again == "yes":
 
 
     option = input("What do you want to do (encode, decode)?").strip().lower()
-    message = input("Type the message to encode").lower()
+    message = input("Type the message").lower()
     shift = int(input("Type the number of shifts"))
     shift = shift % 26 #26 is the number of letters or avid bugs in huge numbers
     caesar(message, shift, option)
